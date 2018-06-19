@@ -9,5 +9,6 @@
 
 @section('sidebar')
     @parent
+    
     <p>This text is appended to the parent!</p>
 @endsection
