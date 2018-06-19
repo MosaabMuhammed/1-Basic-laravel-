@@ -8350,17 +8350,24 @@ button.close {
   }
 }
 
-body,
 html {
-  position: relative;
   height: 100%;
+}
+
+body {
+  position: relative;
+  min-height: 100%;
 }
 
 footer {
   padding: 20px;
   width: 100%;
+  margin-top: 50px;
   position: absolute;
   bottom: 0;
+  right: 0;
+  left: 0;
   background-color: #272727;
   margin-top: 20px;
 }
+
