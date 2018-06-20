@@ -2,7 +2,7 @@
 
 ## Basic Website
 
-- This sites includes working with Routes, Controllers, Migrations, and Views.
+- This sites includes working with Routes, Controllers, Migrations, Views, and Laravel Collective!
 - Also includes some tricks to handle showing the data from the database into the views.
 - Make Sure to check it out!
 
