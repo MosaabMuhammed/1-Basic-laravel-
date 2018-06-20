@@ -11,16 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-})->name('home');
-
-Route::get('/about', function(){
-    return view('about');
-})->name('about');
-
-Route::get('/contact', function(){
-    return view('contact');
-})->name('contact');
+Route::get('/', 'PagesController@home')->name('home');
+Route::get('/about', 'PagesController@about')->name('about');
+Route::get('/contact', 'PagesController@contact')->name('contact');
 
 Route::post('/contact', 'MessagesController@store');
+Route::get('/messages', 'MessagesController@show');
