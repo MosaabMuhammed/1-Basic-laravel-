@@ -1,9 +1,12 @@
 html {
     height: 100%;
+    // box-sizing: border-box;
 }
 body {
     position: relative;
-    min-height: 100%
+    margin: 0;
+    padding-bottom: 9rem;
+    min-height: 100%;
 }
 footer {
     padding: 20px;

@@ -1,7 +1,6 @@
 @extends('layouts.master')
 
 @section('content')
-    <div class="col-md-8 col-lg-8">
         <h1>Contact</h1>
 
         {!! Form::open(['url' => 'contact/submit', 'method' => 'POST']) !!}
@@ -19,5 +18,4 @@
             </div>
                 {{ Form::submit('Submit', ['class' => 'btn btn-primary']) }}
         {!! Form::close() !!}
-    </div>
 @endsection

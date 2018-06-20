@@ -8356,6 +8356,8 @@ html {
 
 body {
   position: relative;
+  margin: 0;
+  padding-bottom: 9rem;
   min-height: 100%;
 }
 
